@@ -1,0 +1,15 @@
+{
+  "name": "aboutme",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "bower": "1.7.9",
+    "connect-mongo": "^1.1.0",
+    "express": "4.13.4",
+    "jade": "0.20.3",
+    "mongoose": "4.4.13",
+    "serve-static": "1.10.2",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5"
+  }
+}

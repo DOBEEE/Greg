@@ -1,0 +1,27 @@
+extends ../layout
+
+block content
+  section#see1.panel.se1(data-section-name='se1')
+    h1.logo GREG
+    .menu_main
+      img(src='/images/iconfont-icon1.svg', alt='')
+    ul#nav
+      li
+        a.home(href='http://www.immaster.cn') 首页 | Home
+      li
+        a.blog(href='http://blog.immaster.cn') 博客 | Blog
+      li
+        a.production(href='http://blog.immaster.cn/archives/category/%e5%a5%87%e6%80%9d%e5%a6%99%e6%83%b3') 作品 | Production
+      li
+        a.about.scroll(href='#se2') 关于我 | About
+      li
+        a.contact.scroll(href='#se6') 联系我 | Contact
+    img.me(src='/images/1.svg', alt='')
+  section#see2.panel.se2(data-section-name='se2')
+  section#see3.panel.se3(data-section-name='se3')
+  section#see4.panel.se4(data-section-name='se4')
+  section#see5.panel.se5(data-section-name='se5')
+  section#see6.panel.se6(data-section-name='se6')
+  include ../includes/foot
+  script(src="/js/sec1.js")
+  script(src="/js/scroload.js")
